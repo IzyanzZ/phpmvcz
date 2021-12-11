@@ -1,0 +1,17 @@
+{
+    "name": "axonix/axo-mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IzyanzZ",
+            "email": "izyanzytbusiness@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Izyanz": "./"
+        }
+    }
+}

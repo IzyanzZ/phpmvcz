@@ -1,0 +1,6 @@
+<?php
+
+if ($argv[1] === "serve") {
+    echo "Now Running On http://localhost:3000\n\n";
+    exec("php -S localhost:3000 public/index.php");
+}
